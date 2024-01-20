@@ -15,35 +15,35 @@ public class AppTest
 		
 		String result = App.NumberToChar(70);
 		String expected_result="C";
-		org.junit.Assert.assertEquals(expected_result,result,0.00001);
+		org.junit.Assert.assertEquals(expected_result,result,result);
 	}
 	@Test
 	public void exe_2_Partition_C_min_plus1() {
 		
 		String result = App.NumberToChar(71);
 		String expected_result="C";
-		org.junit.Assert.assertEquals(expected_result,result,0.00001);
+		org.junit.Assert.assertEquals(expected_result,result,result);
 	}
 	@Test
 public void exe_2_Partition_C_nominal() {
 		
 		String result = App.NumberToChar(75);
 		String expected_result="C";
-		org.junit.Assert.assertEquals(expected_result,result,0.00001);
+		org.junit.Assert.assertEquals(expected_result,result,result);
 	} 
 	@Test
 public void exe_2_Partition_C_max_minus1() {
 		
 		String result = App.NumberToChar(78);
 		String expected_result="C";
-		org.junit.Assert.assertEquals(expected_result,result,0.00001);
+		org.junit.Assert.assertEquals(expected_result,result,result);
 	}
 	@Test
 public void exe_2_Partition_C_max() {
 		
 		String result = App.NumberToChar(79);
 		String expected_result="C";
-		org.junit.Assert.assertEquals(expected_result,result,0.00001);
+		org.junit.Assert.assertEquals(expected_result,result,result);
 	}
 	
 }
